@@ -37,4 +37,4 @@ Git is DVCS to give access to multiple developer and other contributors to work 
 Features in GitHub include issues, discussions, notifications, pull requests, labels, actions, folks, projects.
 
 ### Git commands
-__``git status:`` lets one see which changes are currently being tracked by Git so one can decide whether to ask Git to take another snapshot.
+``git status:`` lets one see which changes are currently being tracked by Git so one can decide whether to ask Git to take another snapshot.
