@@ -13,6 +13,8 @@ With VCS you can:</br>
 - Include comment with each change and explanation.
 
 ## Git
-It is a distributed version control system that is free and open source that developers and other contributors can use to work on a project
+It is a distributed version control system that is free and open source that developers and other contributors can use to work on a project.</br>
+### Git Terminology
+1. __Repository (repo)__: It is where Git keeps all the the history and metadata for a project. A *bare repository* is one that isn't part of a working tree and is usually a directory with a name ending with *.git* e.g *barely.git*
 
 
