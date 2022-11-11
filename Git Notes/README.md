@@ -19,5 +19,10 @@ It is a distributed version control system that is free and open source that dev
 1. __Repository (repo)__: It is where Git keeps all the the history and metadata for a project. A *bare repository* is one that isn't part of a working tree and is usually a directory with a name ending with *.git* e.g *barely.git*
 2. __Working Tree__: Set of nested directories and files containing projects being worked on.
 3. __Hash__: A number produced by a Hash function representing contents of a file or another object as a fixed number of digits. Using hashes enables Git tell whether a file has changed by hashing its contents and comparing result to the previous hash.
-4. __Object__: A Git 
+4. __Object__: A Git repository has four types of objects each uniquely identified by SHA-1 hash. 
+-  *Blob object* contains ordinary file.
+-  *Commit object* represents a specific version of the working tree.
+-  *Tree object* represent a directory which has names, hashes and permissions.
+-  *Tag* is a name attached to a commit.
+
 
