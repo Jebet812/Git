@@ -17,5 +17,7 @@ With VCS you can:</br>
 It is a distributed version control system that is free and open source that developers and other contributors can use to work on a project.</br>
 ### Git Terminology
 1. __Repository (repo)__: It is where Git keeps all the the history and metadata for a project. A *bare repository* is one that isn't part of a working tree and is usually a directory with a name ending with *.git* e.g *barely.git*
-
+2. __Working Tree__: Set of nested directories and files containing projects being worked on.
+3. __Hash__: A number produced by a Hash function representing contents of a file or another object as a fixed number of digits. Using hashes enables Git tell whether a file has changed by hashing its contents and comparing result to the previous hash.
+4. __Object__: A Git 
 
