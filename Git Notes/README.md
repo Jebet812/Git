@@ -24,5 +24,6 @@ It is a distributed version control system that is free and open source that dev
 -  *Commit object* represents a specific version of the working tree.
 -  *Tree object* represent a directory which has names, hashes and permissions.
 -  *Tag* is a name attached to a commit.
-
+5. __Commit__: is to make a commit object meaning you are commiting changes you have made.
+6. __Branch__: Named series of linked commit. *Head* is the most recent commit in a branch. When you initiate a repository the default branch created is the ``main`` often named ``master`` in Git. The head of current branch is named ``HEAD.``
 
