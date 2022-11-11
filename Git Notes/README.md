@@ -25,5 +25,6 @@ It is a distributed version control system that is free and open source that dev
 -  *Tree object* represent a directory which has names, hashes and permissions.
 -  *Tag* is a name attached to a commit.
 5. __Commit__: is to make a commit object meaning you are commiting changes you have made.
-6. __Branch__: Named series of linked commit. *Head* is the most recent commit in a branch. When you initiate a repository the default branch created is the ``main`` often named ``master`` in Git. The head of current branch is named ``HEAD.``
-
+6. __Branch__: is a named series of linked commit. *Head* is the most recent commit in a branch. When you initiate a repository the default branch created is the ``main`` often named ``master`` in Git. The head of current branch is named ``HEAD.``
+7. __Remote__: is a named reference to another to another Git repository. When creating a repo, Git creates a remote named ``origin`` that is default remote for push and pull operates.
+8. __Commands, subcommands and options__: operations in Git are performed by *command* like ``git commit``, ``git push``. ``git`` (is the command). ``push`` ``commit`` (is the subcommand). *Subcommand* is the operation you want Git to do. *Option* accompany commands which use hyphens (-) or double hyphens (--) e.g ``git reset --hard``
