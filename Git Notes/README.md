@@ -33,3 +33,8 @@ It is a distributed version control system that is free and open source that dev
 You can use GUI available for Git like GitHub Desktop or programming editors like Microsoft Visual Studio Code but they have different limitations hence the use of Git command line which enables one tap to all of Git's functionality without being confronted with error messages.
 
 ### Git and GitHub
+Git is DVCS to give access to multiple developer and other contributors to work on a project. GitHub is a cloud platform that uses Git as its core technologies.</br>
+Features in GitHub include issues, discussions, notifications, pull requests, labels, actions, folks, projects.
+
+### Git commands
+__``git status:`` lets one see which changes are currently being tracked by Git so one can decide whether to ask Git to take another snapshot.
