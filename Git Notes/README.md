@@ -33,32 +33,31 @@ It is a distributed version control system that is free and open source that dev
 You can use GUI available for Git like GitHub Desktop or programming editors like Microsoft Visual Studio Code but they have different limitations hence the use of Git command line which enables one tap to all of Git's functionality without being confronted with error messages.
 
 ### Git and GitHub
-Git is DVCS to give access to multiple developer and other contributors to work on a project. GitHub is a cloud platform that uses Git as its core technologies.</br>
+Git is a DVCS used to give access to multiple developer and other contributors to work on a project. GitHub is a cloud platform that uses Git as its core technologies.</br>
 Features in GitHub include issues, discussions, notifications, pull requests, labels, actions, folks, projects.
 
 ### Git commands
 Some of the git commands commonly used are:
 - ``git status:`` this command lets one see which changes are currently being tracked by Git so one can decide whether to ask Git to take another snapshot.
 - ``git add:`` this command is used to let Git know it needs to start keeping track of changes in certain files. </br>
-Use ``git add`` is used to track all changes on files listed Git when you run the ``git status`` command in both the untracked and the modified section.
+Use ``git add`` to track all changes on files listed Git when you run the ``git status`` command in both the untracked and the modified section.</br>
 *Staging* is the technical term for these changes. Files added but not commited yet are stored in the staging area.
-- ``git commit:`` the command is invoked to save work to a snapshot ``git commit -am`` to commit modified files.
-- ``git log:`` this command allows one to see into previous commit. It prints information about the recent commit e.g. authors, commit message anfd their time stamp.
-- ``git help:`` used to acquire information about all commands. Commands come with a help page e.g. to find the help page for the ``git commit`` command type ``git commit --help.``
+- ``git commit:`` the command is invoked to save work to a snapshot. Use ``git commit -am`` command to commit modified files.
+- ``git log:`` this command allows one to see into previous commit. It prints information about the recent commit e.g. authors, commit message and their time stamp.
+- ``git help:`` used to acquire information about all commands. Commands come with a help page e.g. to find the help page for the ``git commit`` command, type ``git commit --help.``
 - ``git push:`` this command is used to upload git commits to a remote repository e.g. Github.
-- ``git pull:`` this command is used to download changes from remote repository to local machine. It is the opposite ``git push.``
 - ``git clone:`` this command is used bring a repository that is hosted somewhere e.g. GitHub into a folder on local machine.
 - ``git innit:`` this command is used to create a new Git repository.
 - ``git remote:`` this command lets one create, view and delete connection to other repositories.
-*Git branching* allows developers to diverge from production version f the code to fix a bug or add a feature.
+*Git branching* allows developers to diverge from production version of the code to fix a bug or add a feature. </br>
 - ``git branch:`` this command lists the branch you are on.</br>
-Use the ``git branch -d`` command to delete branches especially after merging.
+Use the ``git branch -d`` command to delete branches especially after merging to the main branch.
 - ``git checkout:`` this command is used to switch between branches. </br>
 To create a new branch use ``git checkout -b`` command followed by the name of the branch you want to create. 
-- ``git diff:`` this command is used to show what changes havebeen made.
-- ``git merge:`` this command merge changes made,
-*Pull request* a request to have a code pulled into another branch.
-- ``git pull:`` this command is used to fetch and download content from a remote repository and update on local repository to match the content.
+- ``git diff:`` this command is used to show what changes have been made.
+- ``git merge:`` this command merges changes made.</br>
+*Pull request* is a request to have a code pulled into another branch.
+- ``git pull:`` this command is used to fetch and download content from a remote repository and update on local repository to match the content. It is the opposite ``git push.``
 - ``git reset:`` this command is used to undo a staging.
 - ``git log:`` this command is used to see a log of all commits.
 
