@@ -38,3 +38,4 @@ Features in GitHub include issues, discussions, notifications, pull requests, la
 
 ### Git commands
 ``git status:`` lets one see which changes are currently being tracked by Git so one can decide whether to ask Git to take another snapshot.
+``
