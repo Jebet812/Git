@@ -37,9 +37,14 @@ Git is DVCS to give access to multiple developer and other contributors to work 
 Features in GitHub include issues, discussions, notifications, pull requests, labels, actions, folks, projects.
 
 ### Git commands
+Some of the git commands commonly used are:
 - ``git status:`` this command lets one see which changes are currently being tracked by Git so one can decide whether to ask Git to take another snapshot.
 - ``git add:`` this command is used to let Git know it needs to start keeping track of changes in certain files. </br>
 Use ``git add`` is used to track all changes on files listed Git when you run the ``git status`` command in both the untracked and the modified section.
 *Staging* is the technical term for these changes. Files added but not commited yet are stored in the staging area.
 - ``git commit:`` the command is invoked to save work to a snapshot ``git commit -am`` to commit modified files.
-- ``git log:``
+- ``git log:`` this command allows one to see into previous commit. It prints information about the recent commit e.g. authors, commit message anfd their time stamp.
+- ``git help:`` used to acquire information about all commands. Commands come with a help page e.g. to find the help page for the ``git commit`` command type ``git commit --help.``
+- ``git push:`` this command is used to upload git commits to a remote repository e.g. Github.
+- ``git pull:`` this command is used to download changes from remote repository to local machine. It is the opposite ``git push.``
+- 
