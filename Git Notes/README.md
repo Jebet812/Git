@@ -52,5 +52,15 @@ Use ``git add`` is used to track all changes on files listed Git when you run th
 - ``git remote:`` this command lets one create, view and delete connection to other repositories.
 *Git branching* allows developers to diverge from production version f the code to fix a bug or add a feature.
 - ``git branch:`` this command lists the branch you are on.</br>
-Use the ``git branch -d`` to delete branches especially after merging.
-- ``git checkout:`` this command is used to switch between branches. To create a new branch use ``git checkout -b`` command followed by the name of the branch you want to create. 
+Use the ``git branch -d`` command to delete branches especially after merging.
+- ``git checkout:`` this command is used to switch between branches. </br>
+To create a new branch use ``git checkout -b`` command followed by the name of the branch you want to create. 
+- ``git diff:`` this command is used to show what changes havebeen made.
+- ``git merge:`` this command merge changes made,
+*Pull request* a request to have a code pulled into another branch.
+- ``git pull:`` this command is used to fetch and download content from a remote repository and update on local repository to match the content.
+- ``git reset:`` this command is used to undo a staging.
+- ``git log:`` this command is used to see a log of all commits.
+
+
+
