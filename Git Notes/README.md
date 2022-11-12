@@ -47,4 +47,10 @@ Use ``git add`` is used to track all changes on files listed Git when you run th
 - ``git help:`` used to acquire information about all commands. Commands come with a help page e.g. to find the help page for the ``git commit`` command type ``git commit --help.``
 - ``git push:`` this command is used to upload git commits to a remote repository e.g. Github.
 - ``git pull:`` this command is used to download changes from remote repository to local machine. It is the opposite ``git push.``
-- 
+- ``git clone:`` this command is used bring a repository that is hosted somewhere e.g. GitHub into a folder on local machine.
+- ``git innit:`` this command is used to create a new Git repository.
+- ``git remote:`` this command lets one create, view and delete connection to other repositories.
+*Git branching* allows developers to diverge from production version f the code to fix a bug or add a feature.
+- ``git branch:`` this command lists the branch you are on.</br>
+Use the ``git branch -d`` to delete branches especially after merging.
+- ``git checkout:`` this command is used to switch between branches. To create a new branch use ``git checkout -b`` command followed by the name of the branch you want to create. 
